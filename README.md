@@ -19,14 +19,12 @@ In addition to the above system requrements, the scripts require that the follow
   * wget
 
 ## Running the Scripts
-You can download the scripts using the following command:
-```
-git clone https://github.com/nexxius/Pentest-Strata-for-Bedrock
-```
+You can download the scripts using the following command by cloning this repo
+
 ### Building a Kali Linux Stratum
 Make the Kali Linux script executable:
 ```
-cd ./Pentest-Strata-for-Bedrock
+cd ./kali-linux-on-Bedrock
 chmod +x build-kali.sh
 ```
 Run the script as root:
@@ -36,7 +34,7 @@ sudo ./build-kali.sh
 ### Building a BlackArch Stratum
 Make the BlackArch script executable:
 ```
-cd ./Pentest-Strata-for-Bedrock
+cd ./kali-linux-on-Bedrock
 chmod +x build-blackarch.sh
 ```
 Run the script as root:
